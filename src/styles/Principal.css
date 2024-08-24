@@ -1,26 +1,45 @@
 .main {
-    width: 98%;
-    max-width: 1200px;
-    margin: 20px auto;
+    width: 100%;
+    max-width: 88%;
+    margin: 10px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     min-height: 80dvh;
 }
 
 .main .aside {
     display: flex;
-    justify-content: center;
-    align-content: center;
+    justify-content: flex-start;
+    align-content: space-around;
     border-radius: 10px;
-    width: 25%;
+    width: 10%;
     background: #2e5adf;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2px;
+    background: #404E7C;
+}
+
+.main .aside .collection{
+    margin: 10px 0px;
+}
+
+.main .aside .like {
+    margin: 20px 0px;
+}
+
+.main .aside .history {
+    margin-top: auto;
+    margin-bottom: 10px;
 }
 
 .main .principal {
     display: flex;
     justify-content: center;
     align-content: center;
-    width: 64%;
+    margin-left: 6%;
+    width: 90%;
     border-radius: 10px;
     background: #2e5adf;
 }
