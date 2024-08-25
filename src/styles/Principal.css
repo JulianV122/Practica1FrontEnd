@@ -1,6 +1,6 @@
 .main {
     width: 100%;
-    max-width: 88%;
+    max-width: 90%;
     margin: 10px 0;
     display: flex;
     justify-content: flex-start;
@@ -13,7 +13,6 @@
     align-content: space-around;
     border-radius: 10px;
     width: 10%;
-    background: #2e5adf;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
@@ -35,11 +34,55 @@
 }
 
 .main .principal {
+    display: inline-block;
+    justify-content: center;
+    align-content: flex-start;
+    margin-left: 1%;
+    width: 100%;
+    border-radius: 10px;
+    background: #1C2321;
+}
+
+.main .principal .title {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: #A9B4C2;
+    background: #1C2321;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+
+.main .principal .musics {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: #1C2321;
+}
+.main .principal .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-content: center;
-    margin-left: 6%;
-    width: 90%;
+    width: 18% ;
+    margin: 15px 20px;
+    padding: 0px 10px;
+    background: #1C2321;
+}
+
+.main .principal .card img {
+    width: 100%;
+    border: 2px solid #f7f8fd;
     border-radius: 10px;
-    background: #2e5adf;
+    
+}
+
+.main .principal .card .names {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #A9B4C2;
+    background: #1C2321;
 }
