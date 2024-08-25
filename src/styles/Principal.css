@@ -17,20 +17,33 @@
     flex-wrap: wrap;
     align-items: center;
     padding: 2px;
-    background: #404E7C;
+    background: #1C2321;
+    margin-left: 10px;
 }
 
 .main .aside .collection{
     margin: 10px 0px;
+    background: #1C2321;
+    img {
+        background: #1C2321;
+    }
 }
 
 .main .aside .like {
     margin: 20px 0px;
+    background: #1C2321;
+    img {
+        background: #1C2321;
+    }
 }
 
 .main .aside .history {
     margin-top: auto;
     margin-bottom: 10px;
+    background: #1C2321;
+    img {
+        background: #1C2321;
+    }
 }
 
 .main .principal {
