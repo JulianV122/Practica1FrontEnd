@@ -1,11 +1,67 @@
 .footer {
-    width: 98%;
-    margin: 0 auto;
+    width: 70%;
+    margin: 0px auto;
     max-width: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    height: auto;
     border-radius: 10px;
-    background: #2e5adf;
+    background: #4F345A;
+    padding: 5px;
+}
+
+.footer .title p{
+    background: #4F345A;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #4F345A;
+    padding: 3px;
+    img {
+        background: #4F345A;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.icons .github {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #4F345A;
+    img {
+        background: #4F345A;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.icons .instagram {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #4F345A;
+    img {
+        background: #4F345A;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.icons .x {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #4F345A;
+    img {
+        background: #4F345A;
+        width: 30px;
+        height: 30px;
+    }
 }
