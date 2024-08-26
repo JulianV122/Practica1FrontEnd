@@ -1,4 +1,5 @@
 import '../styles/Principal.css'
+import Card from './Card'
 
 export default function Principal() {
     return (
@@ -17,39 +18,14 @@ export default function Principal() {
             <section className="principal">
                 <p className='title'>Musica Recomendada</p>
                 <div className="musics">
-                    <div className="card">
-                        <img src="src\assets\kendrick lamar.jpg" alt="" />
-                        <p className='names'> Kendrick Lamar</p>
-                    </div>
-                    <div className="card">
-                        <img src="src\assets\drake.jpeg" alt="" />
-                        <p className='names'> Drake</p>
-                    </div>
-                    <div className="card">
-                        <img src="src\assets\daftpunk.jpeg" alt="" />
-                        <p className='names'> Daft Punk</p>
-                    </div>
-                    <div className="card">
-                        <img src="src\assets\eminem.jpg" alt="" />
-                        <p className='names'> Eminem</p>
-                    </div>
-                    <div className="card">
-                        <img src="src\assets\kanye.jpg" alt="" />
-                        <p className='names'> Kanye West</p>
-                    </div>
-                    <div className="card">
-                        <img src="src\assets\macmiller.jpeg" alt="" />
-                        <p className='names'> Mac Miller</p>
-                    </div>
-                    <div className="card">
-                        <img src="src\assets\travis.jpeg" alt="" />
-                        <p className='names'> Travis Scott</p>
-                    </div>
-                    <div className="card">
-                        <img src="src\assets\pinkfloyd.jpeg" alt="" />
-                        <p className='names'> Pink Floyd</p>
-                    </div>
-                    
+                    <Card img="src\assets\kendrick lamar.jpg" title="Kendrick Lamar" alt="Kendrick Lamar"/>
+                    <Card img="src\assets\drake.jpeg" title="Drake" alt="Drake"/>
+                    <Card img="src\assets\daftpunk.jpeg" title="Daft Punk" alt="Daft Punk"/>
+                    <Card img="src\assets\eminem.jpg" title="Eminem" alt="Eminem"/>
+                    <Card img="src\assets\kanye.jpg" title="Kanye West" alt="Kanye West"/>
+                    <Card img="src\assets\macmiller.jpeg" title="Mac Miller" alt="Mac Miller"/>
+                    <Card img="src\assets\travis.jpeg" title="Travis Scott" alt="Travis Scott"/>
+                    <Card img="src\assets\pinkfloyd.jpeg" title="Pink Floyd" alt="Pink Floyd"/>                    
                 </div>
             </section>
         </main>
